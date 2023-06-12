@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<nav>
+  <ul>
+    <a href="/pages/nosotros.html">Nosotros</a></li>
+    <a href="/pages/servicios.html">Servicios</a></li>
+    <a href="/pages/agendar.html">Agendar</a></li>
+    <a href="/pages/inmueble.html">Inmueble</a></li>
+    <a href="/pages/resultados.html">Resultados</a></li>
+  </ul>
+</nav>
+
+<body>
+  <form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required><br>
+
+    <label for="tipoDocumento">Tipo de documento:</label>
+    <select id="tipoDocumento" name="tipoDocumento" required>
+      <option value="CC">C.C</option>
+      <option value="CE">C.E</option>
+      <option value="PP">P.P</option>
+    </select><br>
+
+    <label for="fechaNacimiento">Fecha de nacimiento:</label>
+    <input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
+
+    <button>Aceptar</button>
+    <button>Cancelar</button>
+  </form>
+  <div>
+    <img src="../resources/default.png" alt="inmueble">
+    <p>Tu proximo hogar te espera</p>
+  </div>
+</body>
+<footer>
+  <p>Informacion Legal</p>
+  <p>Contacto</p>
+  <p>Gracias por revisar esta web</p>
+</footer>
+
+</html>

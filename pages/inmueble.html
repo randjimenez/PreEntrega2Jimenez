@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<nav>
+  <ul>
+    <a href="/pages/nosotros.html">Nosotros</a></li>
+    <a href="/pages/servicios.html">Servicios</a></li>
+    <a href="/pages/agendar.html">Agendar</a></li>
+    <a href="/pages/inmueble.html">Inmueble</a></li>
+    <a href="/pages/resultados.html">Resultados</a></li>
+  </ul>
+</nav>
+
+<body>
+  <div>
+    <label for="Tinmueble">Que buscas</label><br>
+    <input type="text" id="Tinmueble" name="Tinmueble">
+    <input type="text" id="ciudad" name="ciudad">
+    <button>Buscar</button>
+  </div>
+  <div>
+    <img src="../resources/default.png" alt="photo">
+    <div>
+      <img src="../resources/default.png" alt="photo">
+      <img src="../resources/default.png" alt="photo">
+      <img src="../resources/default.png" alt="photo">
+      <img src="../resources/default.png" alt="photo">
+      <img src="../resources/default.png" alt="photo">
+    </div>
+
+    <div>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, ut. Aut officia minima facilis ipsa, enim
+        nemo assumenda nisi totam a reprehenderit accusantium ipsum ea eveniet non sed sapiente ullam!</p>
+    </div>
+    <div>
+      <p>Espacios</p>
+      <span>&#9733;</span> 4 Habitaciones
+      <span>&#9733;</span> 4 Habitaciones
+      <span>&#9733;</span> 4 Habitaciones
+      <span>&#9733;</span> 4 Habitaciones
+      <span>&#9733;</span> 4 Habitaciones
+      <span>&#9733;</span> 4 Habitaciones
+    </div>
+    <button>
+      Agenda tu Visita
+    </button>
+  </div>
+  <div>
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+
+    <!-- prettier-ignore -->
+    <script>(g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; d[q] = f; a.onerror = () => h = n(Error(p + " could not load.")); a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })
+        ({ key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "beta" });</script>
+  </div>
+
+</body>
+<footer>
+  <p>Informacion Legal</p>
+  <p>Contacto</p>
+  <p>Gracias por revisar esta web</p>
+</footer>
+
+</html>
