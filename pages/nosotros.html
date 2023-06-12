@@ -2,43 +2,71 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../style.css
+">
+    <title>Document</title>
 </head>
 
-<nav>
-  <ul>
-    <a href="/pages/nosotros.html">Nosotros</a></li>
-    <a href="/pages/servicios.html">Servicios</a></li>
-    <a href="/pages/agendar.html">Agendar</a></li>
-    <a href="/pages/inmueble.html">Inmueble</a></li>
-    <a href="/pages/resultados.html">Resultados</a></li>
-  </ul>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link active" aria-current="page" href="/pages/nosotros.html">Nosotros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="/pages/servicios.html">Servicios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="/pages/agendar.html">Agendar</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="/pages/inmueble.html">Inmueble</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="/pages/resultados.html">Resultados</a>
+      </li>
+    </ul>
+  </div>
 </nav>
 
-<body>
-  <img src="../resources/default.png" alt="banner">
+<body class="about_body">
+  <div class="about_container">
+    <div class="container-md"  >
+      <h3>Quienes somos</h3>
+      <div class="info">
+        <img class="img-fluid" src="../resources/work.png" alt="nosotros_info">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit tenetur aperiam quos ut id pariatur modi
+          voluptatem. Quo quod repellendus ab earum itaque quasi cupiditate. Error et placeat eaque dolor.</p>
+      </div>
+    </div>
+    <div class="container-md">
+      <h3>Propuesta de valor</h3>
+      <img class="img-fluid" src="../resources/default.png" alt="nosotros_info">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit tenetur aperiam quos ut id pariatur modi
+        voluptatem. Quo quod repellendus ab earum itaque quasi cupiditate. Error et placeat eaque dolor.</p>
+    </div>
 
-  <div id="container">
-    <h3>Quienes somos</h3>
-    <img src="../resources/default.png" alt="nosotros_info">
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit tenetur aperiam quos ut id pariatur modi
-      voluptatem. Quo quod repellendus ab earum itaque quasi cupiditate. Error et placeat eaque dolor.</p>
   </div>
-
-  <div id="container2">
-    <h3>Propuesta de valor</h3>
-    <img src="../resources/default.png" alt="nosotros_info">
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit tenetur aperiam quos ut id pariatur modi
-      voluptatem. Quo quod repellendus ab earum itaque quasi cupiditate. Error et placeat eaque dolor.</p>
+  <div class="container-md">
+      <h3>Propuesta de valor</h3>
+      <img class="img-fluid" src="../resources/default.png" alt="nosotros_info">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit tenetur aperiam quos ut id pariatur modi
+          voluptatem. Quo quod repellendus ab earum itaque quasi cupiditate. Error et placeat eaque dolor.</p>
   </div>
 </body>
-<footer>
-  <p>Informacion Legal</p>
-  <p>Contacto</p>
-  <p>Gracias por revisar esta web</p>
+<footer class="footer_container"  >
+    <p>Informacion Legal</p>
+    <p>Contacto</p>
+    <p>Gracias por revisar esta web</p>
 </footer>
 
 </html>

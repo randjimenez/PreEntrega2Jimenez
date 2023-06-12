@@ -20,7 +20,7 @@
 }
 /* Footer*/
 .footer_container {
-  height: 5vh;
+  height: 12vh;
   background-color: #f2f2f2;
   padding: 20px;
   text-align: center;
@@ -95,4 +95,31 @@
 
 a, p {
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+}
+
+.about_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer {
+
+}
+
+
+@media screen and (min-width: 480px) {
+  .about_body {
+    display: flex;
+    flex-direction: column;
+  }
+  .about_container {
+    display: flex;
+    width: 100%;
+  }
+  .footer_container {
+    height: fit-content;
+
+
+  }
 }
